@@ -1,0 +1,191 @@
+
+body {
+  margin-top: 35px;
+  background: url("../img/cc2.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.font{
+  font-family:Zawgyi-One;
+}
+
+.header {
+  color: #fff;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
+  font-family: 'Dosis', sans-serif;
+  font-size: 55px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 798px) {
+  .header {
+    font-size: 30px;
+  }
+}
+
+.sec_header {
+  color: #fff;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+  font-family: 'Dosis', sans-serif;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 798px) {
+  .sec_header {
+    font-size: 18px;
+  }
+}
+
+.credit > a {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 798px) {
+  .credit > a {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+a:hover {
+  color: #1caa98;
+  text-decoration: none;
+}
+
+.field {
+  padding-top: 5px;
+}
+
+.input_1, .input_2, .input_3, .input_4 {
+  margin-top: 20px;
+}
+
+.input_5{
+  padding-bottom: 30px;
+}
+
+.checkbox {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1caa98;
+  border-color: #fff;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #1caa98;
+  border-color: #1caa98;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1caa98;
+  border-color: #fff;
+}
+
+/*Result*/
+.pass{
+  color: #fff;
+  background-color:rgba(28, 170, 152, 0.36);
+  font-family:sans-serif , Zawgyi-One;
+  font-size: 22px;
+  border-radius: 10px;
+  padding:10px 10px;
+  margin:100px 10px 30px 10px;
+}
+
+.offical{
+  color: #1caa98;
+}
+
+img{
+  width: 350px;
+  height: 300px;
+}
+
+@media (max-width:350px){
+  img{
+    width: 250px;
+    height: 200px;
+  }
+}
+
+/*Term*/
+.term1 , .fail{
+    background-color:rgba(0, 0, 0, 0.61);
+    padding: 20px 20px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 10px;
+    font-family:'Dosis', sans-serif , Zawgyi-One;
+    margin-top: 100px;
+}
+
+
+.term2{
+  padding-top: 30px;
+}
+
+.title{
+  font-size: 25px;
+}
+
+.none{
+  display: none;
+}
+
+.block{
+  display: block;
+}
+
+.error{
+  padding-top: 20px;
+}
+
+/*apidoc*/
+
+.apidocs{
+  background-color: #fff;
+}
+
+
+/* Year results */
+
+.btn-default {
+    color: #fff;
+    background-color: #1caa98;
+    border-color: #fff;
+    font-family:'Dosis', sans-serif ;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: #fff;
+  background-color: #1caa98;
+  border-color: #1caa98;
+}
+.btn-default:hover {
+  color: #fff;
+  background-color: #1caa98;
+  border-color: #fff;
+}
+
+
+h3{
+  line-height: 2.5em;
+}
